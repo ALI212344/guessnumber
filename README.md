@@ -13,6 +13,7 @@ Features
 Project Structure
 
 guess/
+
 ├── assets/                # Images and media files
 ├── comingsoon.css         # CSS for the coming soon page
 ├── comingsoon.html        # Coming soon page
