@@ -67,8 +67,7 @@ This project is designed to be hosted on Cloudflare Pages or any static hosting 
 
 ![alt text](https://github.com/ALI212344/guessnumber/blob/main/assets/websreenshot.png)
 
-![Homepage](assets/homepage_screenshot.png)
-![Team Page](assets/team_page_screenshot.png)
+![alt text](https://github.com/ALI212344/guessnumber/blob/main/assets/teamscreenshot.png)
 
 *   *Make sure these images exist in your `assets` folder.*
 
