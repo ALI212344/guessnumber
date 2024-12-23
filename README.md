@@ -44,7 +44,7 @@ guess/
 1.  Clone the repository:
 
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone [https://github.com/ALI212344/guessnumber.git](https://github.com/ALI212344/guessnumber.git)
     ```
 
 2.  Navigate to the project folder:
