@@ -65,7 +65,7 @@ This project is designed to be hosted on Cloudflare Pages or any static hosting 
 
 ## Screenshots
 
-*(Add screenshots here using relative paths. Example:)*
+![alt text]([http://url/to/img.png](https://github.com/ALI212344/guessnumber/blob/main/assets/websreenshot.png))
 
 ![Homepage](assets/homepage_screenshot.png)
 ![Team Page](assets/team_page_screenshot.png)
