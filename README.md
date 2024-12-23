@@ -14,18 +14,29 @@ Project Structure
 
 guess/
 
-├── assets/                # Images and media files
-├── comingsoon.css         # CSS for the coming soon page
-├── comingsoon.html        # Coming soon page
-├── comingsoonAL.html      # Alternate coming soon page
-├── contactus.html         # Contact Us page
-├── guess.css              # Styles specific to the guessing game
-├── guess.js               # JavaScript for interactive functionality
-├── guessing-game.png      # Main image for the game
-├── index.html             # Main landing page
-├── style.css              # General styles for the website
-├── team-style.css         # Styles for the team page
-├── team.html              # Team information page
+├── assets/                    # Images and media files
+
+├── comingsoon.css          # CSS for the coming soon page
+
+├── comingsoon.html         # Coming soon page
+
+├── comingsoonAL.html       # Alternate coming soon page
+
+├── contactus.html          # Contact Us page
+
+├── guess.css               # Styles specific to the guessing game
+
+├── guess.js                # JavaScript for interactive functionality
+
+├── guessing-game.png       # Main image for the game
+
+├── index.html              # Main landing page
+
+├── style.css               # General styles for the website
+
+├── team-style.css          # Styles for the team page
+
+├── team.html               # Team information page
 
 
 How to Run Locally
