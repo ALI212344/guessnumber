@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Guess the Number</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Game</a></li>
+            <li><a href="team.html">Design Team</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="contact-container">
+        <!-- Contact Information Section -->
+        <section class="contact-info">
+            <h1>Contact Us</h1>
+            <p>Phone: <a href="tel:+1(415) 779-6620">+1(415) 779-6620</a></p>
+        </section>
+
+        <!-- Social Media Section -->
+        <section class="social-media">
+            <h2>Follow Us</h2>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100084114516229" target="_blank">Facebook</a>
+                <a href="https://www.instagram.com/alisabarii/" target="_blank">Instagram</a>
+                <a href="https://twitter.com/alisabarii/" target="_blank">Twitter</a>
+                <!--<a href="https://linkedin.com" target="_blank">LinkedIn</a>-->
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="button" id="clearButton">Send Message</button>
+            </form>
+        </section>
+    </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Website Name. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="">Terms of Service</a></li>
+            <li><a href="">Privacy Policy</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        document.getElementById("clearButton").addEventListener("click", function () {
+            // انتخاب تمام ورودی‌ها و تکست‌اریاهای فرم
+            const formElements = document.querySelectorAll("#contactForm input, #contactForm textarea");
+
+            // پاک کردن مقادیر همه عناصر فرم
+            formElements.forEach(function (element) {
+                element.value = ""; // مقدار را خالی کنید
+            });
+
+            // نمایش پیام
+            alert("Your message was successfully sent!");
+        });
+    </script>
+</body>
+</html>

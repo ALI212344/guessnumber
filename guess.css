@@ -1,0 +1,129 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url("guessing-game.png") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+/* Navigation Bar */
+.navbar {
+    width: 100%;
+    background: #003366;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Game Container */
+.game-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.difficulty-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background: #00bfff;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.difficulty-buttons button:hover {
+    background: #0077cc;
+}
+
+/* Game Info */
+.game-info p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Input Section */
+.input-section {
+    margin-top: 20px;
+}
+
+.input-section input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+    max-width: 300px;
+}
+
+.input-section button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background: #00bfff;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input-section button:hover {
+    background: #0077cc;
+}
+
+#feedback {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    text-align: center;
+    background: #003366;
+    padding: 10px 0;
+    font-size: 14px;
+}

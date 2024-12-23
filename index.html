@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="guess.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Guess the Number</div>
+        <ul class="nav-links">
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="team.html">Meet the Team</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="game-container">
+        <h1>Guess the Number</h1>
+        <p>Select a difficulty level to start playing:</p>
+
+        <!-- Difficulty Selection -->
+        <div class="difficulty-buttons">
+            <button id="easy">Easy</button>
+            <button id="medium">Medium</button>
+            <button id="hard">Hard</button>
+        </div>
+
+        <!-- Game Info -->
+        <div class="game-info">
+            <p id="timer">Timer: 0:00</p>
+            <p id="attempts">Attempts: 0</p>
+            <p id="score">Score: 0</p>
+        </div>
+
+        <!-- Input Section -->
+        <div class="input-section">
+            <input type="number" id="guess-input" placeholder="Enter your guess" min="1" max="100">
+            <button id="submit-guess">Submit</button>
+            <p id="feedback"></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>created by Ali AL-Sabari</p>
+        <p>© 2024 Guess the Number. All rights reserved.</p>
+    </footer>
+
+    <script src="guess.js"></script>
+</body>
+</html>
