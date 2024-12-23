@@ -50,7 +50,7 @@ guess/
 2.  Navigate to the project folder:
 
     ```bash
-    cd your-repo-name
+    cd guessnumber
     ```
 
 3.  Open `index.html` in your browser to view the website.
