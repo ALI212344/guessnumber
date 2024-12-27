@@ -4,7 +4,25 @@ A simple and interactive guessing game website designed for fun and engagement. 
 
 ## Features
 
-*   **Interactive Guessing Game:** A fun game to guess a number or solve challenges. ( *Add more details about the game itself here, e.g., number range, types of challenges*)
+# Interactive Guessing Game
+
+A fun and engaging game where you guess a number or solve challenges!
+
+## How it Works
+
+The game generates a random number within a specified range (e.g., 1 to 100). Your goal is to guess the number in as few attempts as possible. After each guess, you’ll receive feedback: whether the guess is too high, too low, or correct.
+
+## Types of Challenges
+
+*   **Standard Guessing Mode:** Guess the random number generated within a fixed range (e.g., 1–100).
+*   **Time Challenge:** Solve the game within a limited amount of time.
+*   **Attempts Challenge:** Guess the correct number with the least possible number of attempts to achieve a high score.
+
+## Interactive Features
+
+*   **Dynamic Feedback:** Receive real-time hints like “Too High” or “Too Low.”
+*   **Progress Tracking:** See the number of attempts you’ve made.
+*   **Difficulty Levels:** Play in easy, medium, or hard mode with varying number ranges and hints.
 *   **Responsive Design:** Works well on desktops, tablets, and mobile devices.
 *   **Multiple Pages:**
     *   Coming Soon Page (`comingsoon.html`)
@@ -98,9 +116,5 @@ For questions or feedback, feel free to reach out:
 *   Website: __
 
 ## Future Improvements (Optional)
-
-*   *List any planned features or improvements here.*
-*   *Example: Implement different difficulty levels for the game.*
-*   *Example: Add sound effects.*
 
 Markdown
